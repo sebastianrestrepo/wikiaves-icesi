@@ -1,0 +1,28 @@
+.editorNavBar{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+
+    h3{
+        margin-left: 60px;
+        font-weight: 400;
+        color: #160D31;
+    }
+    nav{
+        position: absolute;
+        right: 15px;
+        ul{
+            display:flex;
+            flex-direction:row;
+            li{
+                margin-right: 40px;
+                list-style-type: none;
+                cursor: pointer;
+                font-weight: 600;
+            }
+        }
+    }
+}

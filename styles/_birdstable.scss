@@ -1,0 +1,59 @@
+.birds-table {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+
+    .categories-wrapper {
+        display: flex;
+        flex-direction: row;
+        color: #4AC66D;
+        font-weight: 600;
+        align-items: center;
+        border-bottom: 2px solid #EAEBEE;
+        height: 35px;
+        align-items: center;
+
+        .category {
+            width: 230px;
+            margin-left: 5px;
+        }
+
+        .id-cat {
+            color: #4AC66D;
+            font-weight: 600;
+            font-size: 15px;
+            width: 30px;
+            margin-left: 5px;
+        }
+        .edit-btn-space{
+            width: 100px;
+        }
+    }
+
+    .each-bird-box {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5px;
+        font-size: 11px;
+        align-items: center;
+        height: 50px;
+        border-bottom: 2px solid #EAEBEE;
+
+        .id-param {
+            color: #4AC66D;
+            font-weight: 600;
+            font-size: 15px;
+            width: 30px;
+        }
+
+        .bird-param {
+            color: #091B25;
+            font-size: 15px;
+            width: 230px;
+        }
+
+        #bird-sci-name{
+            font-style: italic;
+        }
+    }
+}

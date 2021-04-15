@@ -1,0 +1,77 @@
+.editor {
+    background-color: #FAFAFA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .editor-header-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        .header-title-wrapper {
+            display: flex;
+            flex-direction: row;
+            .species-title-counter {
+                display: flex;
+                flex-direction: row;
+
+                .speciesTitle {
+                    color: #091B25;
+                    margin-right: 10px;
+                }
+
+                .speciesCounter {
+                    color: #4AC66D;
+                    margin-right: 10px;
+                }
+            }
+
+            .create-load-species-wrapper {
+                button {
+                    padding: 10px 30px 10px 30px;
+                    margin-bottom: 25px;
+                    height: 35px;
+                    background-color: #091B25;
+                    color: white;
+                    font-weight: 800;
+                    border-radius: 10px;
+                    font-size: 15px;
+                    cursor: pointer;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .searchBar {
+            input {
+                padding-left: 10px;
+                margin-right: 10px;
+                width: 590px;
+                height: 35px;
+                border-radius: 10px;
+                border: 1px solid #DDDADA;
+                font-weight: 600;
+                color: #160D31;
+                font-size: 15px;
+            }
+
+            ::placeholder {
+                color: #AAAAAA;
+            }
+        }
+
+
+        button {
+            padding: 10px 30px 10px 30px;
+            height: 35px;
+            background-color: #4AC66D;
+            color: white;
+            font-weight: 800;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+    }
+
+}

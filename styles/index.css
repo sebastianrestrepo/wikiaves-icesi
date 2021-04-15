@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,600,700,800,900&display=swap");
+.login {
+  background-color: #FAFAFA;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .loginWrapper {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .loginWrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login .loginWrapper .loginForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .loginWrapper .loginForm .textInputWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .loginWrapper .loginForm .textInputWrapper label {
+  margin-bottom: 3px;
+}
+
+.login .loginWrapper .loginForm .formTextInput {
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  width: 300px;
+  height: 35px;
+  border-radius: 8px;
+  font-weight: 400;
+  color: #160D31;
+  font-size: 15px;
+  border: 1.5px solid #CECDCD;
+}
+
+.login .loginWrapper .loginForm .formButton {
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 25px;
+  height: 35px;
+  background-color: #4AC66D;
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+.navBar h3 {
+  margin-left: 60px;
+  font-weight: 400;
+  color: #160D31;
+}
+
+.navBar nav {
+  position: absolute;
+  right: 15px;
+}
+
+.navBar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navBar nav ul li {
+  margin-right: 40px;
+  list-style-type: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.editorNavBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #FFF;
+}
+
+.editorNavBar h3 {
+  margin-left: 60px;
+  font-weight: 400;
+  color: #160D31;
+}
+
+.editorNavBar nav {
+  position: absolute;
+  right: 15px;
+}
+
+.editorNavBar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.editorNavBar nav ul li {
+  margin-right: 40px;
+  list-style-type: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.editor {
+  background-color: #FAFAFA;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.editor .editor-header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+.editor .editor-header-wrapper .header-title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.editor .editor-header-wrapper .header-title-wrapper .species-title-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.editor .editor-header-wrapper .header-title-wrapper .species-title-counter .speciesTitle {
+  color: #091B25;
+  margin-right: 10px;
+}
+
+.editor .editor-header-wrapper .header-title-wrapper .species-title-counter .speciesCounter {
+  color: #4AC66D;
+  margin-right: 10px;
+}
+
+.editor .editor-header-wrapper .header-title-wrapper .create-load-species-wrapper button {
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 25px;
+  height: 35px;
+  background-color: #091B25;
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.editor .editor-header-wrapper .searchBar input {
+  padding-left: 10px;
+  margin-right: 10px;
+  width: 590px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid #DDDADA;
+  font-weight: 600;
+  color: #160D31;
+  font-size: 15px;
+}
+
+.editor .editor-header-wrapper .searchBar ::-webkit-input-placeholder {
+  color: #AAAAAA;
+}
+
+.editor .editor-header-wrapper .searchBar :-ms-input-placeholder {
+  color: #AAAAAA;
+}
+
+.editor .editor-header-wrapper .searchBar ::-ms-input-placeholder {
+  color: #AAAAAA;
+}
+
+.editor .editor-header-wrapper .searchBar ::placeholder {
+  color: #AAAAAA;
+}
+
+.editor .editor-header-wrapper button {
+  padding: 10px 30px 10px 30px;
+  height: 35px;
+  background-color: #4AC66D;
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.createSpecie h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.createSpecie .formWrapper {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.createSpecie .formWrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.createSpecie .formWrapper .birdForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.createSpecie .formWrapper .birdForm .textInputWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.createSpecie .formWrapper .birdForm .textInputWrapper label {
+  margin-bottom: 3px;
+}
+
+.createSpecie .formWrapper .birdForm .formTextInput {
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  width: 400px;
+  height: 35px;
+  border-radius: 8px;
+  font-weight: 400;
+  color: #160D31;
+  font-size: 15px;
+  border: 1.5px solid #CECDCD;
+}
+
+.createSpecie .formWrapper .birdForm .formButton {
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 25px;
+  height: 35px;
+  background-color: #4AC66D;
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+* button {
+  border-style: none;
+  cursor: pointer;
+}
+
+* input {
+  border-style: none;
+}
+
+.mainBoxWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4AC66D;
+  padding-bottom: 40px;
+  height: 350px;
+}
+
+.welcomeBoxWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80%;
+}
+
+.welcomeBoxWrapper h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+.welcomeBoxWrapper h2 {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.welcomeBoxWrapper h3 {
+  color: #160D31;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.welcomeBoxWrapper input {
+  padding-left: 10px;
+  margin-right: 10px;
+  width: 590px;
+  height: 35px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #160D31;
+  font-size: 15px;
+}
+
+.welcomeBoxWrapper ::-webkit-input-placeholder {
+  color: #AAAAAA;
+}
+
+.welcomeBoxWrapper :-ms-input-placeholder {
+  color: #AAAAAA;
+}
+
+.welcomeBoxWrapper ::-ms-input-placeholder {
+  color: #AAAAAA;
+}
+
+.welcomeBoxWrapper ::placeholder {
+  color: #AAAAAA;
+}
+
+.welcomeBoxWrapper button {
+  padding: 10px 30px 10px 30px;
+  height: 35px;
+  background-color: white;
+  color: #160D31;
+  font-weight: 800;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.contentBoxWrapper {
+  padding: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #FAFAFA;
+}
+
+.contentBoxWrapper .leftWrapper .yellowTitle {
+  color: #FFBF00;
+  font-weight: 800;
+}
+
+.contentBoxWrapper .leftWrapper .blackTitle {
+  color: #160D31;
+  font-weight: 800;
+}
+
+.contentBoxWrapper .rightWrapper {
+  margin-left: 60px;
+}
+
+.contentBoxWrapper .rightWrapper .greenTitle {
+  color: #4AC66D;
+  font-weight: 800;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #160D31;
+  width: 100%;
+  height: 200px;
+}
+
+footer p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+footer button {
+  padding: 10px 30px 10px 30px;
+  height: 35px;
+  background-color: white;
+  color: #160D31;
+  font-weight: 800;
+  border-radius: 10px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=index.css.map */
